@@ -1,7 +1,91 @@
 /** CSS STYLE **/
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+  font-family: "Open Sans", sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.header {
+  min-width: 1440px;
 
-.hello {
-  display: block;
+  background: url("../images/background.png") center/contain no-repeat #f5f4f0;
+  position: relative;
+}
+.header-title {
+  text-align: left;
+  width: 594px;
 
-  color: #fff;
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.2em;
+  color: #fe8a02;
+  margin-bottom: 205px;
+}
+.main {
+  position: absolute;
+  top: 97px;
+  right: -15px;
+  width: 952px;
+  height: 444px;
+}
+header span {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+
+  color: #2a2626;
+}
+.section-video {
+  padding: 100px 0px;
+  min-width: 1440px;
+  height: 914px;
+  background: #ffffff;
+}
+.section-nav {
+  background: #42413c;
+  padding: 100px 0px;
+  min-width: 1440px;
+  height: 891px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2a2626;
+}
+.column-1 {
+  width: 540px;
+}
+.column-2 {
+  width: 540px;
+}
+.btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 14px 24px;
+  background: #fe8a02;
+  margin-top: 40px;
+  display: inline-block;
 }
