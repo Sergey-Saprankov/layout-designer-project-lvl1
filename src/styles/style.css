@@ -99,7 +99,7 @@ header span {
 }
 .section-video-title {
   text-align: center;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
@@ -132,5 +132,5 @@ header span {
   width: 1440px;
   height: 100px;
   background: #42413C;
-  margin-top: -88px;
+  margin-top: -91px;
 }
