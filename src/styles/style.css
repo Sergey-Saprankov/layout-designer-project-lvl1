@@ -37,9 +37,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
-  line-height: 1.2em;
+  line-height: 86px;
   color: #fe8a02;
-  margin-bottom: 185px;
+  margin-bottom: 181px;
 }
 .main {
   position: absolute;
@@ -71,7 +71,7 @@ header span {
   width: 540px;
 }
 .mb8 {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 .column-2 {
   width: 540px;
@@ -87,12 +87,12 @@ header span {
   padding: 12px 24px;
   background: #fe8a02;
   margin-top: 40px;
-  width: 149px;
+  width: 148px;
   display: block;
 }
 .section-video {
   background: #ffffff;
-  height: 814px;
+  height: 819px;
 }
 .container-article {
   max-width: 920px;
@@ -139,11 +139,10 @@ header span {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 20px;
-  justify-content: flex-start;
+  
 }
 .item {
   width: 350px;
-  max-height: 348px;
   background: #f5f4f0;
   padding: 24px;
 }
@@ -178,7 +177,7 @@ header span {
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 40px;
   margin-bottom: 16px;
   color: #fe8a02;
 }
@@ -187,7 +186,7 @@ header span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 25px;
   color: #2A2626;
 }
 .item:hover .wt{
