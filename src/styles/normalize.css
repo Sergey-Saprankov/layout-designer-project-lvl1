@@ -42,6 +42,12 @@ h1 {
   margin: 0;
 }
 
+ul,
+li{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
 /* Grouping content
    ========================================================================== */
 
