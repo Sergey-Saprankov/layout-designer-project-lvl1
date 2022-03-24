@@ -1,4 +1,8 @@
 /** CSS STYLE **/
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-size: 16px;
   line-height: 1.6em;
@@ -19,18 +23,13 @@ body {
   overflow: hidden;
 }
 .background::before{
-  content: '';
-  position: absolute;
-  left: 0px;
-  top: 0px;
-
-  width: 1440px;
-  height: 914px;
-
-  background-image: url('../images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
+ content: url("../images/background.png");
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 0.1;
 }
 
 .header-title {
@@ -40,7 +39,8 @@ body {
   font-size: 72px;
   line-height: 1.2em;
   color: #fe8a02;
-  margin-bottom: 205px;
+  margin-bottom: 185px;
+  
 }
 .main {
   position: absolute;
@@ -54,7 +54,7 @@ header span {
   font-weight: 400;
   font-size: 72px;
   line-height: 100%;
-
+  
   color: #2a2626;
 }
 .section-video {
@@ -73,7 +73,7 @@ header span {
 .column {
   display: flex;
   justify-content: space-between;
-
+  padding-top: 16px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -83,6 +83,9 @@ header span {
 }
 .column-1 {
   width: 540px;
+}
+.mb8{
+  margin-bottom: 8px;
 }
 .column-2 {
   width: 540px;
