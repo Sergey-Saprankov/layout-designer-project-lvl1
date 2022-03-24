@@ -52,7 +52,7 @@ header span {
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
-  line-height: 100%;
+  line-height: 1;
 
   color: #2a2626;
 }
@@ -67,6 +67,7 @@ header span {
   line-height: 26px;
   color: #2a2626;
 }
+
 .column-1 {
   width: 540px;
 }
@@ -123,12 +124,14 @@ header span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 25px;
+}
+.center{
   text-align: center;
-  margin-bottom: 30px;
 }
 .video {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-top: 30px;
 }
 .section-nav {
   background: #42413c;
@@ -139,7 +142,6 @@ header span {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 20px;
-  
 }
 .item {
   width: 350px;
@@ -187,8 +189,71 @@ header span {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  color: #2A2626;
+  color: #2a2626;
 }
-.item:hover .wt{
+.item:hover .wt {
   color: #fff;
+}
+
+/* ================================================== */
+
+.effect-ikea {
+  position: relative;
+  overflow: hidden;
+  background: #f5f4f0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.cont-title {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+.effect-ikea-h2 {
+  order: 1;
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2a2626;
+  margin-bottom: 30px;
+}
+.effect-ikea-text {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  color: #2a2626;
+  order: 2;
+}
+.style {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #908d8b;
+}
+.cont-img {
+  width: 578px;
+  height: 434px;
+  position: relative;
+}
+.effect-ikea-h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px 0px 5px 10px;
+  background: #B09A81;
 }
