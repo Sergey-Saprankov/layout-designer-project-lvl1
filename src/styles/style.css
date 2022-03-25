@@ -348,6 +348,7 @@ header span {
   color: var(--color-white);
   font-weight: 700;
   font-size: 14px;
+  font-family: "Open sans", sans-serif;
   font-style: normal;
   line-height: 16px;
   text-transform: uppercase;
