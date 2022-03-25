@@ -28,6 +28,7 @@ h1,
 h2,
 h3 {
   color: var(--color-orange);
+  font-weight: 400;
   font-family: Neucha, cursive;
   line-height: 1.2em;
 }
@@ -333,6 +334,8 @@ header span {
 
   width: 578px;
   height: 434px;
+
+  vertical-align: middle;
 }
 
 .effect-ikea-h3 {
@@ -355,9 +358,15 @@ header span {
 .premature-optimization {
   position: relative;
 
-  overflow: hidden;
+  min-height: 855px;
+
+  overflow: visible;
 
   background: var(--color-brown);
+}
+
+.premature-optimization ul {
+  margin: 1em;
 }
 
 .order0 {
