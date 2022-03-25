@@ -24,6 +24,26 @@ body {
   background: #f5f4f0;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--color-orange);
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -33,7 +53,7 @@ body {
 
 .header {
   position: relative;
-  /* stylelint-disable-next-line order/properties-order */
+
   overflow: hidden;
 
   background-color: var(--color-header);
@@ -41,12 +61,17 @@ body {
 
 .background::before {
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
 
-  content: url("../images/background.png");
+  content: " ";
 }
 
 .header-title {
@@ -209,6 +234,12 @@ header span {
 
 .nav-title span {
   color: #fff;
+}
+
+.section-nav li {
+  padding: 0;
+
+  list-style-type: none;
 }
 
 .item li {
